@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: Clase12-EurekaClient-Addition
+
+server:
+  port: 8010
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}:${random.int}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env
+        #https://docs.spring.io/spring-boot/docs/2.1.7.RELEASE/reference/html/production-ready-endpoints.html
+  endpoint:
+    env:
+      show-values: WHEN_AUTHORIZED
+      #ALWAYS
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: EurekaClient Clase12 service-addition
+  java:
+    version: ${java.version}

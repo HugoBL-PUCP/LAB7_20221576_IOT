@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Círculo de fondo -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,60m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0" />
+    <!-- Ondas de conectividad (IoT) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M44.4,70.4 A22,22 0 0 1 75.6,70.4" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M33.1,59.1 A38,38 0 0 1 86.9,59.1" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:pathData="M21.8,47.8 A54,54 0 0 1 98.2,47.8" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,90m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+</vector>

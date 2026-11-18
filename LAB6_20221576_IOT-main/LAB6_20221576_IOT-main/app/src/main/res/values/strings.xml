@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IoT Inventario</string>
+
+    <!-- ============ CONFIGURACIÓN EXTERNA (REEMPLAZAR) ============ -->
+    <!-- Firebase Console > Authentication > Google > "ID de cliente web" -->
+    <string name="server_client_id" translatable="false">256881957875-2s7lcpprgfcqabv1gnevbu1e7ejrkmoe.apps.googleusercontent.com</string>
+    <!-- developers.facebook.com > tu app > Configuración básica -->
+    <string name="facebook_app_id" translatable="false">1234567890</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1234567890</string>
+    <!-- Configuración > Avanzada > Token de cliente -->
+    <string name="facebook_client_token" translatable="false">REEMPLAZAR_CLIENT_TOKEN</string>
+
+    <!-- ============ INICIO DE SESIÓN ============ -->
+    <string name="cd_logo">Logo de IoT Inventario</string>
+    <string name="login_subtitle">Registra tus dispositivos IoT con su foto</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_google">Continuar con Google</string>
+    <string name="btn_facebook">Continuar con Facebook</string>
+    <string name="txt_or">o continúa con</string>
+    <string name="link_forgot">¿Olvidaste tu contraseña?</string>
+    <string name="txt_no_account">¿No tienes cuenta?</string>
+    <string name="link_register">Regístrate</string>
+
+    <!-- ============ REGISTRO / RECUPERACIÓN ============ -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="btn_register">Registrarme</string>
+    <string name="link_back_login">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="forgot_title">Recuperar contraseña</string>
+    <string name="forgot_info">Ingresa tu correo y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="btn_send_link">Enviar enlace</string>
+    <string name="msg_reset_sent">Te enviamos un correo para restablecer tu contraseña</string>
+    <string name="msg_verify_sent">Cuenta creada. Revisa tu correo para verificarla</string>
+    <string name="msg_verify_required">Debes verificar tu correo antes de ingresar. Revisa tu bandeja de entrada.</string>
+
+    <!-- ============ VALIDACIONES Y ERRORES ============ -->
+    <string name="err_email_required">Ingresa tu correo</string>
+    <string name="err_email_invalid">Correo no válido</string>
+    <string name="err_password_required">Ingresa tu contraseña</string>
+    <string name="err_password_short">Mínimo 6 caracteres</string>
+    <string name="err_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="err_name_required">Ingresa tu nombre</string>
+    <string name="err_user_not_found">No existe una cuenta con ese correo</string>
+    <string name="err_bad_credentials">Correo o contraseña incorrectos</string>
+    <string name="err_user_exists">Ya existe una cuenta con ese correo (quizá con otro método de acceso)</string>
+    <string name="err_weak_password">La contraseña es muy débil</string>
+    <string name="err_network">Sin conexión a internet</string>
+    <string name="err_generic">Ocurrió un error. Inténtalo nuevamente</string>
+    <string name="err_google">No se pudo iniciar sesión con Google</string>
+    <string name="err_facebook">No se pudo iniciar sesión con Facebook</string>
+    <string name="msg_facebook_cancel">Inicio de sesión con Facebook cancelado</string>
+
+    <!-- ============ DASHBOARD ============ -->
+    <string name="dashboard_title">Mis dispositivos</string>
+    <string name="dashboard_hello">Hola, %1$s</string>
+    <string name="dashboard_hint_avatar">Toca tu foto para cambiarla</string>
+    <string name="dashboard_empty">Aún no tienes dispositivos.\nToca + para registrar uno con su foto.</string>
+    <string name="cd_add">Agregar dispositivo</string>
+    <string name="cd_delete">Eliminar dispositivo</string>
+    <string name="cd_back">Volver</string>
+    <string name="cd_avatar">Foto de perfil</string>
+    <string name="cd_device_photo">Foto del dispositivo</string>
+    <string name="menu_logout">Cerrar sesión</string>
+
+    <!-- ============ FORMULARIO DE DISPOSITIVO ============ -->
+    <string name="form_new_title">Nuevo dispositivo</string>
+    <string name="form_edit_title">Editar dispositivo</string>
+    <string name="hint_device_name">Nombre del dispositivo</string>
+    <string name="hint_location">Ubicación</string>
+    <string name="hint_description">Descripción (opcional)</string>
+    <string name="label_type">Tipo de dispositivo</string>
+    <string name="btn_gallery">Galería</string>
+    <string name="btn_camera">Cámara</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="delete_title">Eliminar dispositivo</string>
+    <string name="delete_message">Se eliminará el dispositivo y su foto. ¿Continuar?</string>
+    <string name="err_device_name_required">Ingresa el nombre del dispositivo</string>
+    <string name="err_location_required">Ingresa la ubicación</string>
+    <string name="msg_saved">Dispositivo guardado</string>
+    <string name="msg_updated">Dispositivo actualizado</string>
+    <string name="msg_deleted">Dispositivo eliminado</string>
+    <string name="msg_uploading">Subiendo imagen…</string>
+    <string name="msg_upload_error">No se pudo subir la imagen: %1$s</string>
+    <string name="msg_image_error">No se pudo procesar la imagen</string>
+    <string name="msg_camera_error">No se pudo abrir la cámara</string>
+    <string name="msg_avatar_updated">Foto de perfil actualizada</string>
+    <string name="msg_db_error">Error: %1$s</string>
+</resources>
